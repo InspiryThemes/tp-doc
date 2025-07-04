@@ -7,7 +7,12 @@ Stylesheet for Tourpress Documentation
     border: 3px solid #b7b7b75e;
 }
 
-.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4, .md-typeset h5, .md-typeset h6 {
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #333;
@@ -25,9 +30,20 @@ Stylesheet for Tourpress Documentation
     font-weight: 400;
     font-weight: bold;
     margin: 25px 0 5px 0;
-    font-size: 1.5625em; 
+    font-size: 1.5625em;
 }
 
-.md-typeset, .md-typeset code, .md-typeset kbd, .md-typeset pre {
+.md-typeset,
+.md-typeset code,
+.md-typeset kbd,
+.md-typeset pre {
     font-size: .7rem;
+}
+
+.md-nav__link {
+    font-size: 14px;
+}
+
+html .md-typeset .admonition-title {
+    font-weight: 500 !important;
 }

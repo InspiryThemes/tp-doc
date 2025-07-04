@@ -1,4 +1,4 @@
-!!! success "Documentation Last Updated: 4th July 2025"
+!!! success "Documentation Updated: **4th July 2025** | Latest TourPress Theme Version: **v1.2.4**"
 
 Thank you for choosing **TourPress – WordPress Theme for Travel & Tour Booking**. This guide will walk you through everything from installation and setup to advanced customization options.
 

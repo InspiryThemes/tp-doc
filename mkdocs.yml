@@ -45,54 +45,55 @@ extra_css:
   - 'stylesheets/style.css'
 
 nav:
-    - Introduction: index.md
-    - Installation: installation.md
-    - Import Demo Contents: import-demo-contents.md
-    - Home Page:
+  - Introduction: index.md
+  - Installation: installation.md
+  - Import Demo Contents: import-demo-contents.md
+  - Home Page:
       - Creating and Configuring Page: home/create-page.md
       - Home Page Settings:
-        - Sections Manager: home/settings/sections-manager.md
-        - Slider Area: home/settings/slider-area.md
-        - Features: home/settings/features.md
-        - Featured Packages: home/settings/featured-packages.md
-        - Travel Destinations: home/settings/popular-destinations.md
-        - Special Offers: home/settings/special-offers.md
-        - Destination By Mood: home/settings/destination-by-mood.md
-        - Blog Posts: home/settings/recent-from-blog.md
-        - Testimonials: home/settings/testimonials.md
-        - Explore Tours: home/settings/explore-tours.md
-    - Header:
+          - Sections Manager: home/settings/sections-manager.md
+          - Slider Area: home/settings/slider-area.md
+          - Features: home/settings/features.md
+          - Featured Packages: home/settings/featured-packages.md
+          - Travel Destinations: home/settings/popular-destinations.md
+          - Special Offers: home/settings/special-offers.md
+          - Destination by Mood: home/settings/destination-by-mood.md
+          - Blog Posts: home/settings/recent-from-blog.md
+          - Testimonials: home/settings/testimonials.md
+          - Explore Tours: home/settings/explore-tours.md
+  - Header:
       - Topbar Settings: header/topbar.md
       - Banner Settings: header/banner.md
       - Other Settings: header/others.md
-    - Footer: footer/footer-settings.md
-    - Tours Search: tours-search.md
-    - Tours & Tours Page:
+  - Footer: footer/footer-settings.md
+  - Tours Search: tours-search.md
+  - Tours & Tours Page:
       - Add New Tour: tour/add-tour.md
-      - Create Tours Page: tour/create-tours-page.md 
-    - Tour Details Page: tour/settings/tour-detail-page.md
-    - Taxonomy & Archive Pages: tour/taxonomy-and-archive-pages.md
-    - Other Pages: 
+      - Create Tours Page: tour/create-tours-page.md
+  - Tour Details Page: tour/settings/tour-detail-page.md
+  - Taxonomy & Archive Pages: tour/taxonomy-and-archive-pages.md
+  - Other Pages:
       - Gallery Page: gallery-page.md
       - Blog/News Page: pages.md
       - Contact Page: contact-page.md
       - FAQs Page: faqs-page.md
-    - Other Posts: 
-      - Add Post: posts.md
+  - Other Posts:
+      - Add Blog Post: posts.md
       - Add Testimonial: testimonials.md
-    - Widgets:
+  - Widgets:
       - Recent Posts: widgets/recent-posts.md
       - Top Rated Tours: widgets/top-rated-tours.md
-      - Address & Cotacts: widgets/address-contact.md
-      - Social Share: widgets/soical-share.md
+      - Address & Contacts: widgets/address-contact.md
+      - Social Share: widgets/social-share.md
       - Tours Widget: widgets/tours.md
       - Tours Search: widgets/tours-search.md
-    - Price Format Settings: tour/settings/price-format.md
-    - URL Slugs Settings: tour/settings/tour-slugs.md
-    - Google Maps API: tour/settings/tour-google-map-api.md
-    - Google reCAPTCHA: tour/settings/tour-google-recaptcha.md
-    - WooCommerce Setup: woocommerce.md
-    - Customization: customization.md
+  - Price Format Settings: tour/settings/price-format.md
+  - URL Slugs Settings: tour/settings/tour-slugs.md
+  - Google Maps API: tour/settings/tour-google-map-api.md
+  - Google reCAPTCHA: tour/settings/tour-google-recaptcha.md
+  - WooCommerce Setup: woocommerce.md
+  - Customization: customization.md
+
 
 # Change it to true before building (mkdocs build) for putting online.
 # It should be false for themeforest package.
