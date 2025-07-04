@@ -1,24 +1,63 @@
-!!! success "This documentation is last updated on 19 August 2019"
+!!! success "Documentation Last Updated: 4th July 2025"
 
-## **Introduction**
-Thanks for purchasing **TourPress - WordPress Theme for Travel or Tour Booking**. If you have any question that is beyond the scope of this documentation, feel free to ask that on our [support website](https://support.inspirythemes.com/). You can visit [this knowledge base article](https://support.inspirythemes.com/knowledgebase/how-to-get-themeforest-item-purchase-code/) to learn about how to get item purchase code from themeforest.net to sign-up on our support site.
+## 🎒 TourPress Theme Documentation
 
-## **Important Note**
-It is highly recommended that you should use the [child theme](https://codex.wordpress.org/Child_Themes) over your parent theme for any kind of modification in the theme files so that you can easily update parent theme whenever a new update becomes available. A pre-built ready to use child theme is included in the main theme pack that you have downloaded from ThemeForest.
+Thank you for choosing **TourPress – WordPress Theme for Travel & Tour Booking**. This guide will walk you through everything from installation and setup to advanced customization options.
 
-## **Support Policy**
+If you run into questions beyond the scope of this guide, our support team is here to help — simply head over to our [Support Center](https://support.inspirythemes.com/). Need help signing up? Learn how to retrieve your ThemeForest purchase code [here](https://support.inspirythemes.com/knowledgebase/how-to-get-themeforest-item-purchase-code/).
 
-### **Support Includes**
-* Answering technical questions about theme features.
-* Assistance with reported bugs and issues.
-* Help with included 3rd party assets.
+---
 
-### **Support Does Not Includes**
-* Theme customization services.
-* Theme installation services.
+## 🚩 Getting Started
 
-## **Updating WordPress Theme**
-If you want to update your theme then you can consult [this knowledge base article for automatic update](https://support.inspirythemes.com/knowledgebase/update-theme-automatically/) OR you can consult [this knowledge base article](https://support.inspirythemes.com/knowledgebase/update-theme-manually/) to safely update TourPress Theme.
+Before diving in, make sure your hosting meets the [WordPress requirements](https://wordpress.org/about/requirements/). TourPress works seamlessly on shared, managed, or dedicated hosting setups that support WordPress.
 
-**If you like this theme, Please support us by rating this theme with 5 stars**
-![How to rate?](img/how-to-rate-theme.png)
+A ready-to-use demo, intuitive page builder support, and detailed settings make it easy to launch a beautiful and functional travel booking site quickly.
+
+---
+
+## 🛡️ Use a Child Theme (Highly Recommended)
+
+If you plan to make any modifications to theme files, we strongly recommend using a child theme. This ensures that your changes are preserved during theme updates. A ready-to-use child theme is included in the TourPress package you downloaded from ThemeForest.
+
+Learn more about child themes in the official WordPress documentation: [What is a Child Theme?](https://codex.wordpress.org/Child_Themes)
+
+---
+
+## 💬 Support Policy
+
+We’re committed to helping you get the most out of TourPress. Here’s what our standard support includes:
+
+✅ What’s Covered
+
+- Technical questions about built-in features  
+- Bug reports and issue resolution  
+- Assistance with included third-party assets
+
+🚫 What’s Not Covered
+
+- Custom development or theme customization  
+- Installation or hosting setup
+
+Need assistance? Visit our [Support Portal](https://support.inspirythemes.com/ask-question/) to get started.
+
+---
+
+## ⬆️ How to Update TourPress
+
+To keep your site secure and feature-rich, it’s important to stay up to date with the latest version of TourPress. You can update the theme in two ways:
+
+- [Automatic Update Guide](https://support.inspirythemes.com/knowledgebase/update-theme-automatically/)  
+- [Manual Update Instructions](https://support.inspirythemes.com/knowledgebase/update-theme-manually/)
+
+---
+
+## ⭐️ Like TourPress? Leave a Review!
+
+If you’re happy with your experience using TourPress, we’d greatly appreciate a 5-star rating on ThemeForest. Your feedback motivates us to keep improving and delivering better features.
+
+![How to Rate](img/how-to-rate-theme.png)
+
+---
+
+Now that you're set, let's begin with the Installation process →
