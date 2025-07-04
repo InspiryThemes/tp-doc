@@ -1,60 +1,86 @@
-## Installing Theme
-To start you must have a working version of WordPress. Almost all major web hosts provides one click WordPress install and you can consult your host's help site for more information in this regard. For manual install you can consult WordPress Codex [Installing WordPress](https://codex.wordpress.org/Installing_WordPress).
+## 🧭 Getting Started: Installing the TourPress Theme
 
-Once you have a working version of WordPress, You need to download [All Files and Documentation](img/all-files.png) from themeforest [download page](https://themeforest.net/downloads) and extract the downloaded zip and look for the **inspiry-tourpress.zip**.
+Before installing the TourPress theme, make sure you have a working installation of WordPress.
 
-## Installing Theme Via WordPress Dashboard
-1.  Go to **Dashboard &rarr; Appearance &rarr; Themes** section
-2.  Click **Add New**
+Most modern hosting providers offer one-click WordPress installations. If you're unsure, refer to your hosting provider’s support documentation. Alternatively, for manual installation, see the official WordPress guide:  🔗 [Installing WordPress – WordPress.org](https://codex.wordpress.org/Installing_WordPress)
 
-    ![img](img/01-install.png)
-    
-3. Select the **Upload Theme** option
+Once WordPress is set up, head to your [ThemeForest Downloads](https://themeforest.net/downloads) page and download the “All Files & Documentation” package.
 
-    ![img](img/02-install.png)
-    
-4. Choose the **inspiry-tourpress.zip** file and press **Install Now**
+📦 After extraction, you’ll find the installable theme file: **inspiry-tourpress.zip**
 
-    ![img](img/03-install.png)
-    
-5. Once the theme is uploaded you need to **Activate** it.
+![Download Package](img/all-files.png)
 
-    ![img](img/04-install.png)
-    
-6. After Activation of theme. Next Step is Plugins Installation
+---
+
+## 📥 Installing the Theme via WordPress Dashboard (Recommended)
+
+1. Navigate to `Dashboard → Appearance → Themes`
+2. Click the **Add New** button  
+   ![Add New](img/01-install.png)
+
+3. Click **Upload Theme**  
+   ![Upload Theme](img/02-install.png)
+
+4. Choose the file **inspiry-tourpress.zip**, then click **Install Now**  
+   ![Install Theme](img/03-install.png)
+
+5. Once installed, click **Activate**  
+   ![Activate Theme](img/04-install.png)
+
+6. After activation, proceed to install required plugins.
 
 !!! info ""
-    if you face any problem during upload through dashboard, please upload the theme using FTP as guided below.
-    
-## Install Theme Via FTP ( Alternative Way )
-1. Access your hosting server using an ftp client like [FileZilla](https://filezilla-project.org/)
-2. Go to the **wp-content/themes** folder of your WordPress installation
-3. Extract the **inspiry-tourpress.zip** file and put the **inspiry-tourpress** folder in **wp-content/themes/** folder
-4. Go to **WordPress Dashboard &rarr; Appearance &rarr; Themes** page to activate the theme
+    If you encounter an error during upload, you can install the theme via FTP as described below.
 
-## Install Child Theme
+---
 
-It is highly recommended to use the [child theme](https://codex.wordpress.org/Child_Themes) over your parent theme for any kind of modification in the theme files so that you can easily update parent theme whenever a new update becomes available. A pre-built ready to use child theme is included in the main theme pack that you have downloaded from ThemeForest.
+## 🗂️ Installing the Theme via FTP (Alternative Method)
 
-To install child theme, you need to upload the **inspiry-tourpress-child.zip** and activate it in the same way as you uploaded and activated the parent theme's **inspiry-tourpress.zip**.
+1. Connect to your web server using an FTP client like [FileZilla](https://filezilla-project.org/)
+2. Navigate to your WordPress directory: `wp-content/themes/`
+3. Extract the `inspiry-tourpress.zip` on your computer
+4. Upload the extracted folder `inspiry-tourpress/` into the `themes/` directory
+5. From your WordPress Dashboard, go to `Appearance → Themes`, and click **Activate** on TourPress
 
-## Install Plugins
-After you have installed and activated the theme, there'll be a list of **required** and **recommended** plugins at the top of the WordPress dashboard.
- 
-1. Click on **Begin Installing Plugins**
+---
 
-    ![img](img/05-install.png)
-    
-2. Install **required** and **recommended** plugins
+## 🧒 Installing the Child Theme (Recommended)
 
-    ![img](img/06-install.png)
-    
-3. Click Return to **Required Plugins Installer** when plugins installation is completed.
-4. **Activate** the Installed Plugins.
+To safely customize your theme’s code without losing changes during updates, it’s strongly recommended to use the child theme.
 
-    ![img](img/07-install.png)
-    
+📁 Included in the full package, you’ll find:  
+**inspiry-tourpress-child.zip**
+
+To install:
+
+1. Go to `Dashboard → Appearance → Themes → Add New → Upload Theme`
+2. Upload **inspiry-tourpress-child.zip** just like the parent theme
+3. Click **Activate** once uploaded
+
+🔒 Using a child theme allows you to:
+- Add custom CSS or PHP changes safely
+- Preserve changes during parent theme updates
+
+📖 Learn more about child themes:  
+[https://codex.wordpress.org/Child_Themes](https://codex.wordpress.org/Child_Themes)
+
+---
+
+## 🔌 Installing Required & Recommended Plugins
+
+After activating the theme, WordPress will show a notification bar for installing necessary plugins.
+
+1. Click **Begin Installing Plugins**  
+   ![Begin Install](img/05-install.png)
+
+2. Select all required and recommended plugins and click **Install**  
+   ![Plugin List](img/06-install.png)
+
+3. Once installed, click **Return to Required Plugins Installer**
+4. Select all plugins again, then click **Activate**  
+   ![Activate Plugins](img/07-install.png)
+
 !!! warning ""
-    It is important to skip **WooCommerce wizard** in order to work with **One Click Demo** properly.
-    
- ![img](img/09-install.png)
+    When prompted by the WooCommerce setup wizard, it is important to **skip the wizard** to ensure smooth One Click Demo Import functionality.
+
+   ![Skip WooCommerce Setup](img/09-install.png)

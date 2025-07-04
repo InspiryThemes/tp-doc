@@ -7,6 +7,12 @@ Stylesheet for Tourpress Documentation
     border: 3px solid #b7b7b75e;
 }
 
+.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4, .md-typeset h5, .md-typeset h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+
 .md-typeset h1 {
     color: #03a9f4;
     font-weight: bold;
@@ -22,6 +28,6 @@ Stylesheet for Tourpress Documentation
     font-size: 1.5625em; 
 }
 
-.md-typeset {
+.md-typeset, .md-typeset code, .md-typeset kbd, .md-typeset pre {
     font-size: .7rem;
 }

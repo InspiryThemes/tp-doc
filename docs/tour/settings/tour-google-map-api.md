@@ -1,5 +1,3 @@
-## 🌍 Google Maps API Settings
-
 Enable Google Maps for tour locations using your API key.
 
 🔹 Go to **Dashboard → Easy Tours → Settings → Others**

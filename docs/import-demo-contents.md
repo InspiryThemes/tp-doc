@@ -1,88 +1,138 @@
-##1. Import Demo Data ( Automatic & Recommended )
-To Import Demo Contents follow these steps.
+## 🚀 1. Import Demo Data (Automatic – Recommended)
 
-### **Step 1**
-Go to **Dashboard &rarr; Settings &rarr; Permalinks** page and configure it to the **Post name** as displayed in the screenshot given below.
+The easiest and most efficient way to set up your site like the demo is by using the One Click Demo Import feature. Follow the steps below carefully:
 
-![img](img/install-10.png)
+### 🔧 Step 1: Set Permalinks to “Post Name”
 
-### **Step 2**
+Before importing any demo content, go to: `Dashboard → Settings → Permalinks`  
+Select the option: **Post name**, and click **Save Changes**.
+
+![Permalinks](img/install-10.png)
 
 !!! warning ""
-    It is important to complete **Step 1** as import script is programmed to work with pretty permalinks. Otherwise you will have configuration issues after importing demo data contents.
-Go to **Dashboard &rarr; Appearance &rarr; Import Demo Data** Click on **Import Demo Data** button, wait for import process it may take a couple of minutes to complete :)
+    This step is crucial. The demo import process is built to work with “pretty permalinks”. If you skip this, you may encounter issues with pages and menus after import.
 
-![img](img/08-install.png)
-    
-You can deactivate and delete **One Click Demo Import** plugin from **Plugins** page when import demo data is completed.
+---
 
-Visit your site and you will find your site working like the theme demo. In case of any problem, Get in touch with our support team using our support site.
+### 📥 Step 2: Run the Demo Import
 
-##2. Import XML Contents and Configure Settings Manually
-### **Step 1**
-Go to **Dashboard &rarr; Settings &rarr; Permalinks** page and configure it to the **Post name** as displayed in the screenshot given below.
+1. Navigate to: `Dashboard → Appearance → Import Demo Data`
 
-![img](img/install-10.png)
+2. Click the **Import Demo Data** button.
 
-### **Step 2**
+   ![Import Button](img/08-install.png)
 
-Go to **Dashboard &rarr; Tools &rarr; Import** and click Install Now shown under WordPress as displayed in image below.
+3. The process may take a couple of minutes. Please be patient and do not navigate away during import.
 
-![img](img/install-wordpress-importer.png)
+4. Once completed, your website will resemble the theme demo with pages, posts, tours, widgets, and styling applied.
 
-Once installed, you can activate the plugin and run it by clicking on Run Importer.
+5. (Optional) You can now deactivate and delete the **One Click Demo Import** plugin from the `Plugins` page.
 
-![img](img/run-wordpress-importer.png)
+---
 
-### **Step 3**
-Look for Import XML folder in unzipped package downloaded from themeforest and use the XML file 
+### 🧭 What to Do Next?
 
-![img](img/upload-and-import.png)
+Visit your site to verify the imported content.  
+If anything looks off or doesn’t match the demo, feel free to contact our [Support Team](https://support.inspirythemes.com/).
 
-* Assign posts to an existing author.
-* Mark the checkbox to download and import file attachments
-* Click 'Submit' button
+---
 
-![img](img/assgin-posts.png)
+## 🛠️ 2. Manual Import: XML + Customizer + Widgets
 
-Import process can take few minutes. So wait for it and try to keep the focus on current tab in your browser.
+If the automatic method doesn't work or you prefer full control, use the manual import method. Follow all steps below for best results:
 
-After that is done, you will have bunch of posts, pages, tour post and other contents as on the theme demo.
+### 🔧 Step 1: Set Permalinks
 
-![img](img/importer-all-done.png)
+Go to: `Dashboard → Settings → Permalinks → Post Name`, then **Save Changes**  
+(Same as automatic method)
 
-### **Step 4**
+---
 
-Navigate to **Dashboard &rarr; Appearance &rarr; Menus** and use the Already Imported Menu from XML and assign it to theme location "Header Menu" from Menu Settings section below menu. After that save the menu. As pointed in screenshot below.
+### 📦 Step 2: Install the WordPress Importer
 
-![img](img/header-menu.png)
+1. Navigate to:  `Dashboard → Tools → Import`
 
-### **Step 5**
+2. Under the **WordPress** section, click **Install Now**  
+   ![Install Importer](img/install-wordpress-importer.png)
 
-To configure reading settings you need to visit **Dashboard &rarr; Settings &rarr; Reading** and choose that front page displays as static page. Then select Home as Front Page and News as Posts Page (displayed in the following screenshot).
+3. After installation, click **Run Importer**  
+   ![Run Importer](img/run-wordpress-importer.png)
 
-![img](img/install-09.png)
+---
 
-### **Step 6**
+### 📄 Step 3: Import XML Content
 
-To import Customizer settings you have to install [ Customizer Export/Import](https://wordpress.org/plugins/customizer-export-import/).
+1. Locate the XML file inside the “Import XML” folder of your extracted theme package.
+2. Upload the XML file using the WordPress Importer.
 
-Once the plugin is installed and activate then navigate to **Dashboard &rarr; Customize &rarr; Export/Import** and then select the customizer.dat file.
+   ![Upload XML](img/upload-and-import.png)
 
-![img](img/import-customizer-settings.png)
+3. Assign the demo content to an existing user.
+4. Check the option: **Download and import file attachments**
+5. Click **Submit** and wait for the process to complete.  
+   (It may take a few minutes. Do not refresh the page.)
 
-Upon successful import the Customizer will be refreshed.
+   ![Assign Posts](img/assgin-posts.png)
 
-### **Step 7**
+You’ll now have demo pages, posts, tours, and other content added to your site.
 
-Now you can import widgets too. In order to do that, kindly install [Widget Importer & Exporter](https://wordpress.org/plugins/widget-importer-exporter/).
+   ![Import Done](img/importer-all-done.png)
 
+---
 
-After successful installation and activation navigate to **Dashboard &rarr; Tools &rarr; Widget Importer & Exporter** and then select the widgets.wie file.
+### 🧭 Step 4: Setup the Navigation Menu
 
-![img](img/import-widget-settings.png)
+1. Go to: `Dashboard → Appearance → Menus`
+2. Select the imported demo menu.
+3. Assign it to the “Header Menu” location.
+4. Click **Save Menu**.
 
-Upon successful import the page will be reloaded and it will display the widgets which are imported.
+   ![Header Menu](img/header-menu.png)
 
-Visit your site and you will find your site working like the theme demo. In case of any problem, Get in touch with our support team using our support site.
+---
 
+### 🏠 Step 5: Configure the Homepage
+
+Go to: `Dashboard → Settings → Reading`
+
+1. Set “Your homepage displays” to: **A static page**
+2. Choose:
+   - Homepage: `Home`
+   - Posts page: `News`
+3. Click **Save Changes**
+
+   ![Homepage Setup](img/install-09.png)
+
+---
+
+### 🎨 Step 6: Import Customizer Settings
+
+1. Install the plugin: [Customizer Export/Import](https://wordpress.org/plugins/customizer-export-import/)
+2. After activation, go to:  `Dashboard → Appearance → Customize → Export/Import`
+3. Select the file named: `customizer.dat` from the theme package.
+4. Click **Import**.
+
+   ![Import Customizer](img/import-customizer-settings.png)
+
+Your theme styles and layout will update instantly after import.
+
+---
+
+### 🧩 Step 7: Import Widgets
+
+1. Install the plugin: [Widget Importer & Exporter](https://wordpress.org/plugins/widget-importer-exporter/)
+2. Navigate to:  `Dashboard → Tools → Widget Importer & Exporter`
+3. Choose the file: `widgets.wie`
+4. Click **Import Widgets**
+
+   ![Import Widgets](img/import-widget-settings.png)
+
+Once complete, your sidebar and footer widgets will reflect the demo layout.
+
+---
+
+## 🎉 All Set!
+
+Visit your site and explore the frontend. You should now have a fully functional travel/tour booking website that mirrors the TourPress demo.
+
+If anything goes wrong or if you're unsure about any step, don’t hesitate to reach out to our [support team](https://support.inspirythemes.com/) — we're here to help!
