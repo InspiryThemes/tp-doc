@@ -19,4 +19,9 @@ Stylesheet for Tourpress Documentation
     font-weight: 400;
     font-weight: bold;
     margin: 25px 0 5px 0;
+    font-size: 1.5625em; 
+}
+
+.md-typeset {
+    font-size: .7rem;
 }

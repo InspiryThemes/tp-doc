@@ -90,6 +90,7 @@ nav:
     - Price Format Settings: tour/settings/price-format.md
     - URL Slugs Settings: tour/settings/tour-slugs.md
     - Google Maps API: tour/settings/tour-google-map-api.md
+    - Google reCAPTCHA: tour/settings/tour-google-recaptcha.md
     - WooCommerce Setup: woocommerce.md
     - Customization: customization.md
 

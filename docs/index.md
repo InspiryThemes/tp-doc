@@ -1,7 +1,5 @@
 !!! success "Documentation Last Updated: 4th July 2025"
 
-## 🎒 TourPress Theme Documentation
-
 Thank you for choosing **TourPress – WordPress Theme for Travel & Tour Booking**. This guide will walk you through everything from installation and setup to advanced customization options.
 
 If you run into questions beyond the scope of this guide, our support team is here to help — simply head over to our [Support Center](https://support.inspirythemes.com/). Need help signing up? Learn how to retrieve your ThemeForest purchase code [here](https://support.inspirythemes.com/knowledgebase/how-to-get-themeforest-item-purchase-code/).
